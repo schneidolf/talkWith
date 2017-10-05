@@ -1,0 +1,27 @@
+{
+	"name": "schneidolf/talkwith",
+	"type": "framework",
+	"description": "Talk with different services.",
+	"keywords": ["PHP framework", "thingspeak"],
+	"license": "MIT",
+	"authors": [
+		{"name": "Schneidolf", "email": "bla@bla.de"}
+	],
+	"require": {
+		"php": ">=5.4",
+		"guzzlehttp/guzzle": "~6.0"
+	},
+	"require-dev": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"TalkWith\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"TalkWith\\Tests\\" : "tests/"
+		}
+	}
+}
