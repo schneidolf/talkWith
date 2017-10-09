@@ -68,12 +68,14 @@ class TalkWithThingspeak implements TalkWithInterface {
    */
   public function askSomething(array $something) {
     if (!$this->apiKeys['read']) {
-      throw new \Exception('To say something to thingspeak you need a read API-Key!');
+      throw new \Exception('To ask thingspeak for something you need a read API-Key!');
     }
 
     if (!$this->channel) {
       throw new \Exception('No channel ID available');
     }
+    
+    // TODO
 
   }
 
