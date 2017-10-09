@@ -13,7 +13,7 @@ namespace TalkWith;
 interface TalkWithInterface {
 
   /**
-   * Ask something to the service.
+   * Ask the service for something.
    *
    * @param array $something
    *   Array of parameters to build the request.
