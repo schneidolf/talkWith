@@ -4,7 +4,7 @@ namespace TalkWith;
 
 /**
  * @file
- * Queue interface.
+ * TalkWith interface.
  */
 
 /**
@@ -13,7 +13,7 @@ namespace TalkWith;
 interface TalkWithInterface {
 
   /**
-   * Ask a question to the service.
+   * Ask something to the service.
    *
    * @param array $something
    *   Array of parameters to build the request.
