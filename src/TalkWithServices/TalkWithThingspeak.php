@@ -75,7 +75,7 @@ class TalkWithThingspeak implements TalkWithInterface {
       throw new \Exception('No channel ID available');
     }
     
-    // TODO
+    // TODO: Implementation of this function.
 
   }
 
