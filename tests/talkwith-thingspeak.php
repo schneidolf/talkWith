@@ -1,7 +1,8 @@
 #!/usr/bin/env php
+
 <?php
 
-require '../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use TalkWith\TalkWithServices\TalkWithThingspeak;
 
